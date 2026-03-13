@@ -1,0 +1,229 @@
+body {
+  margin: 0;
+}
+.header {
+  background: #ffffff;
+  padding: 29px 0;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+.blur-decor-1 {
+  position: absolute;
+  width: 240px;
+  height: 240px;
+  left: -40px;
+  top: 160px;
+  background: #facc15;
+  filter: blur(250px);
+}
+.blur-decor-2 {
+  position: absolute;
+  width: 350px;
+  height: 350px;
+  top: 410px;
+  right: 15px;
+  background: #39ff00a6;
+  filter: blur(250px);
+}
+.container {
+  max-width: 1200px;
+  width: 96%;
+  display: flex;
+  align-items: center;
+}
+.left {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+.nav {
+  display: flex;
+  gap: 32px;
+  text-decoration: none;
+}
+.nav-link {
+  text-decoration: none;
+  font-family: "Inter-Regular";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #757b8a;
+}
+.btn-signin {
+  margin-left: auto;
+  border-radius: 60px;
+  border: none;
+  padding: 16px 32px;
+  background: #31543b;
+  font-family: "Inter-Bold";
+  font-style: Bold;
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: center;
+  color: #ffffff;
+  cursor: pointer;
+}
+.header-block {
+  max-width: 722px;
+  margin: 68px auto 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  position: relative;
+}
+.title {
+  margin: 0;
+
+  font-family: "DM Sans-Bold";
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 1.2;
+  letter-spacing: -3px;
+}
+.header-text {
+  max-width: 450px;
+  margin: 0;
+  padding: 16px 0 48px 0;
+  font-family: "Inter-Medium";
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.6;
+  text-align: center;
+  color: #757b8a;
+}
+.header-btn {
+  display: flex;
+  gap: 19px;
+}
+.email input {
+  padding-left: 26px;
+  width: 371px;
+  height: 60px;
+  border-radius: 60px;
+  background: #f3f4f8;
+  border: none;
+  font-family: "Inter-Regular";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5em;
+  color: #757b8a;
+}
+.header-btn-start {
+  width: 240px;
+  height: 60px;
+  border-radius: 60px;
+  padding: 16px 32px;
+  background: #243d31;
+  font-family: "Inter-Bold";
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: center;
+  color: #ffffff;
+  cursor: pointer;
+}
+.header-img {
+  margin-top: 63px;
+  display: flex;
+  justify-content: center;
+
+  width: 96%;
+  max-width: 1200px;
+}
+.img-dashboard {
+  width: 100%;
+}
+.header-svg-1 {
+  position: absolute;
+  right: -10px;
+  top: -5px;
+}
+.header-svg-2 {
+  position: absolute;
+  left: -125px;
+  bottom: 90px;
+}
+.numbers {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #243d31;
+}
+.numbers-container {
+  width: 96%;
+  max-width: 1000px;
+  padding: 237px 0 126px 0;
+}
+.numbers-top {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+.numbers-top-l {
+  max-width: 336px;
+}
+.numbers-btn {
+  border-radius: 20px;
+  padding: 6px 10px 6px 10px;
+  border: none;
+  font-family: "DM Sans-Bold";
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 1.6;
+  color: #24aa4a;
+  background: #e7ffd8;
+  cursor: pointer;
+}
+.numbers-title {
+  margin: 0;
+  padding-top: 16px;
+  font-family: "DM Sans-Bold";
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 1.1;
+  letter-spacing: -0.03em;
+  color: #ffffff;
+}
+.numbers-top-r {
+  display: flex;
+  align-items: flex-end;
+  max-width: 566px;
+}
+.numbers-top-text {
+  margin: 0;
+  font-family: "Inter-Medium";
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.6;
+  color: #e6e9ed;
+}
+.numbers-bott {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  margin-top: 108px;
+}
+.numbers-bott-box {
+}
+.numbers-bott-number {
+  margin: 0;
+  font-family: "DM Sans-Bold";
+  font-weight: 700;
+  font-size: 80px;
+  line-height: 1.1;
+  letter-spacing: -0.04em;
+  color: #ffffff;
+}
+.numbers-bott-text {
+  margin: 0;
+  font-family: "DM Sans-Medium";
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 1.6;
+  color: #ffffff;
+}
